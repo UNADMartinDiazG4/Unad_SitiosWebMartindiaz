@@ -1,0 +1,64 @@
+html{
+    background-color: #808080;
+}
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #006680;
+    font-family: 'Open Sans';    
+}
+h1{ 
+	font-size: 14px;
+    margin-right: 3px;
+    border: 1px black;
+    color: #333333;
+    position: relative;
+    top: -80px;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+footer {
+    text-align:center;
+    font-size: 1.2em;
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+}
+
+.banner {
+	max-width: 100%;
+}
+nav{
+	/*Bordes redondeados*/
+	-webkit-border-radius:20px;/*Para chrome y Safari*/
+	-moz-border-radius:20px;/*Para Firefox*/
+	-o-border-radius:0px;/*Para Opera*/
+	border-radius:0px;/*El estandar por defecto*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#006680), to(#000));
+	background-image: -moz-linear-gradient(top left, #006680, #CCC);/*Para Firefox*/
+	background-image: -o-linear-gradient(top, #006680, #CCC);/*Para Opera*/
+	background-image: linear-gradient(top, #006680, #CCC);/*El estandar por defecto*/
+	overflow:hidden;
+	padding:10px;
+	height: 500px;
+	width:30%;
+    float: left;
+}
+.container{
+    width: 68%;
+    float: right;
+}
+ul{
+	font-size:20px; 
+	padding: 0;
+}
+li {
+    list-style: none;
+    background: #FF5900;
+    color: #fff;
+    text-align: left;
+    margin: 10px 0 10px 0;
+    border: 2px solid #000;
+    padding: 2px 10px 2px 10px;
+}
